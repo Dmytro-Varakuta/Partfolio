@@ -1045,4 +1045,24 @@ button.button-h:hover {
   transform: translateY(0); /* Возврат к исходной позиции */
 }
 
+.animated2 {
+  opacity: 0;
+  transform: translateX(100px); /* Начальное смещение вниз */
+  transition: opacity 1.4s ease, transform 1.4s ease; /* Плавные переходы */
+}
+
+.animated2.show {
+  opacity: 1;
+  transform: translateX(0); /* Возврат к исходной позиции */
+}
+.animated3 {
+  opacity: 0;
+  transform: translateX(-100px); /* Начальное смещение влево */
+  transition: opacity 1.4s ease, transform 1.4s ease; /* Плавные переходы */
+}
+
+.animated3.show {
+  opacity: 1;
+  transform: translateX(0); /* Возврат к исходной позиции */
+}
 
