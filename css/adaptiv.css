@@ -1,0 +1,275 @@
+@media screen and (min-width: 897px) and (max-width: 1720px){
+    .home{
+        gap: 40px;
+    }
+    .btn{
+        left: -3rem;
+    }
+    .skill-t{
+        margin-bottom: 0px;
+    }
+    #contactForm1{
+        width: 600px;
+      
+    }
+  
+    .header{
+        background-color: #1b1e3d;
+        overflow: hidden;
+    }
+    .burger-menu{
+        position: fixed;
+        right: 2rem;
+    }
+    .navber.active{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -5rem;
+    }
+    .header{
+        justify-content: normal;
+        align-items: flex-start;
+        padding-bottom: 37px;
+        padding-top: 10px;
+    }
+    
+    .info{
+        width: 500px;
+    }
+   
+}
+@media screen and (min-width: 600px) and (max-width: 897px){
+    .home{
+        gap: 40px;
+    }
+    .skills {
+        position: relative;
+        top: 1rem;
+    }
+    .partfolio-text{
+        padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .partfolio-box  {
+        position: relative;
+        top: 1rem;
+    }
+    #contactForm1{
+      
+        width: 520px;
+    }
+    .btn{
+        left: -3rem;
+    }
+    .skill-t{
+        margin-bottom: 0px;
+    }
+    .header{
+        background-color: #1b1e3d;
+    }
+    .burger-menu{
+        position: fixed;
+        right: 2rem;
+    }
+    .navber.active{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -4rem;
+    }
+    .header{
+        justify-content: normal;
+        align-items: flex-start;
+        padding-bottom: 37px;
+        padding-top: 10px;
+    }
+    .home-contant h1{
+        width: 344px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 20px;
+    }
+    .info{
+        width: 500px;
+    }
+   
+}
+@media screen and (min-width: 456px) and (max-width: 600px){
+    .home{
+        gap: 40px;
+    }
+    .skills {
+        position: relative;
+        top: 1rem;
+    }
+    .partfolio-text{
+        padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .partfolio-box  {
+        position: relative;
+        top: 1rem;
+    }
+    #contactForm1{
+      max-width: 80%;
+    }
+    .btn{
+        left: -3rem;
+    }
+    .skill-t{
+        margin-bottom: 0px;
+    }
+    .header{
+        background-color: #1b1e3d;
+    }
+    .burger-menu{
+        position: fixed;
+        right: 2rem;
+    }
+    .navber.active{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -4rem;
+    }
+    .header{
+        justify-content: normal;
+        align-items: flex-start;
+        padding-bottom: 37px;
+        padding-top: 10px;
+    }
+    .home-contant h1{
+        width: 344px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 20px;
+    }
+    .info{
+        width: 353px;
+    }
+   
+}
+@media screen and (min-width: 300px) and (max-width: 456px){
+    .home{
+        gap: 40px;
+        padding-right: 0px;
+    }
+    .home-contant h1{
+        font-size: 30px;
+        width: 140px;
+
+    }
+    .home-contant h3{
+        font-size: 18px;
+    }
+    .home-contant p{
+        font-size: 12px;
+        width: 195px;
+     
+    }
+    .home-img{
+        width: 250px;
+        height: 250px;
+    }
+    .image img {
+    max-width: 307px;
+    }
+    .glowing-circle{
+        width: 250px;
+        height: 250px;
+    }
+    .glowing-circle span {
+        width: 265px;
+        height: 265px;
+    }
+    .glowing-circle .image{
+        width: 250px;
+        height: 250px;
+    }
+    .home-img .glowing-circle::after{
+        width: 250px;
+        height: 250px;
+    }
+    .skills {
+        position: relative;
+        top: 2rem;
+    }
+    .partfolio-text{
+        padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .partfolio-box  {
+        position: relative;
+        top: 1rem;
+    }
+    #contactForm1{
+      max-width: 80%;
+    }
+    .btn{
+        left: -2rem;
+    }
+    .skill-t{
+        margin-bottom: 0px;
+    }
+    .header{
+        background-color: #1b1e3d;
+    }
+    .burger-menu{
+        position: fixed;
+        right: 2rem;
+    }
+    .navber.active{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -4rem;
+    }
+    .header{
+        justify-content: normal;
+        align-items: flex-start;
+        padding-bottom: 37px;
+        padding-top: 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 20px;
+    }
+    .info{
+        width: 353px;
+    }
+    .home-contant{
+        align-items: flex-start;
+    }
+    .about-photo{
+        width: 250px;
+        border-radius: 25px;
+        height: 300px;
+    }
+    .card{
+        width: 250px;
+        height: 250px;
+        border-radius: 20%;
+    }
+    .partfolio-img{
+        border-radius: 20%;
+    }
+   
+}
