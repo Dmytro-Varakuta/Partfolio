@@ -45,6 +45,38 @@ const cards = document.querySelectorAll('.card');
     
 
 
+      document.addEventListener('DOMContentLoaded', function() {
+        const animatedElements2 = document.querySelectorAll(".animated2");
+        const animatedElements3 = document.querySelectorAll(".animated3");
+    
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // Этот порог определяет, когда элемент считается видимым
+        };
+    
+        const intersectionObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+    
+        animatedElements2.forEach(animatedElement => {
+            intersectionObserver.observe(animatedElement);
+        });
+    
+        animatedElements3.forEach(animatedElement => {
+            intersectionObserver.observe(animatedElement);
+        });
+    });
+    
+
+
+
+      
 
       document.addEventListener('DOMContentLoaded', function() {
         var navbar = document.querySelector('.navber');
