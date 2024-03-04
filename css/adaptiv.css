@@ -277,5 +277,7 @@
     .partfolio-img{
         border-radius: 20%;
     }
-   
+    .overlay{
+    border-radius: 20%;
+   }
 }
